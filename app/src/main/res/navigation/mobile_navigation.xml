@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_Login">
+
+
+    <fragment
+        android:id="@+id/nav_Login"
+        android:name="com.example.tmdb.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/nav_SignUp" />
+        <action
+            android:id="@+id/action_loginFragment_to_nav_movie"
+            app:destination="@id/nav_movie" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_SignUp"
+        android:name="com.example.tmdb.ui.sign_up.SignUpFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="com.example.tmdb.ui.movie.MovieFragment"
+        android:label="Movie"
+        tools:layout="@layout/fragment_movie">
+        <action
+            android:id="@+id/action_nav_movie_to_nav_details"
+            app:destination="@id/nav_details" />
+        <action
+            android:id="@+id/action_to_favorite_fragment"
+            app:destination="@id/nav_favorite" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.tmdb.ui.favorite.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_nav_favorite_to_nav_details"
+            app:destination="@id/nav_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.tmdb.ui.details.DetailsFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="movie"
+            app:argType="com.example.tmdb.data.Movie" />
+    </fragment>
+</navigation>

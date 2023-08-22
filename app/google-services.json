@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "838034694652",
+    "project_id": "tmdbmovies-fb88c",
+    "storage_bucket": "tmdbmovies-fb88c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838034694652:android:3f24e0eeebbc3a26e5d279",
+        "android_client_info": {
+          "package_name": "com.example.tmdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838034694652-fdbd7g0fdlmdbmljmqu727kib0tsb2tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVjx_fjLuvlLAAtxwCLA5hD1cJtereUN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838034694652-fdbd7g0fdlmdbmljmqu727kib0tsb2tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
