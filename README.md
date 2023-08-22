@@ -14,10 +14,15 @@ TMDB is an Android application based on information from the TMDB API (https://w
 - [Retrofit & Gson](https://github.com/square/retrofit) - Used for constructing REST APIs and handling JSON serialization/deserialization.
 - [OkHttp3](https://github.com/square/okhttp) - Provides capabilities for implementing interceptors, logging, and mocking web servers, making it easier to work with HTTP requests.
 - [Glide](https://github.com/bumptech/glide) - An image loading and caching library for Android, focused on providing smooth scrolling and efficient image loading in apps.
+- [Firebase](https://firebase.google.com/) - A service that facilitates user authentication, including methods such as email/password, social authentication, and phone number authentication.
 
 
 ## Images
 
-|   Movies |  Details | Favorites |  Search  |
-| -------- | -------- | --------  | -------- |  
-| ![Imagen 1](https://github.com/AylinArias/TMDB/blob/master/home.png) | ![Imagen 2](https://github.com/AylinArias/TMDB/blob/master/detailmovie.png) | ![Imagen 3](https://github.com/AylinArias/TMDB/blob/master/favorite%20movies.png) | ![Imagen 4](https://github.com/AylinArias/TMDB/blob/master/search.png) | 
+|   Login  |  Sign Up  |  Movie   |
+| :------: | :------:  | :------: |
+| ![Imagen 1](https://github.com/AylinArias/TMDBMovies/blob/master/login.png) | ![Imagen 2](https://github.com/AylinArias/TMDBMovies/blob/master/signup.png) | ![Imagen 3](https://github.com/AylinArias/TMDBMovies/blob/master/movies.png) |
+
+|  Detail  | Favorite |  Search  |
+| :------: | :------: | :------: |
+| ![Imagen 4](https://github.com/AylinArias/TMDBMovies/blob/master/detailmovie.png) | ![Imagen 5](https://github.com/AylinArias/TMDBMovies/blob/master/favorite%20movies.png) | ![Imagen 6](https://github.com/AylinArias/TMDBMovies/blob/master/searchs.png) |
